@@ -18,6 +18,8 @@ int main(int argc, char** argv){
 		std::cin >> input;
 		if(!input.compare("exit"))
 			running = false;
+		else
+			std::cout << input << std::endl;
 	}
 	trd->join();
 	delete trd;
