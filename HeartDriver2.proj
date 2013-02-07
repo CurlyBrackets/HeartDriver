@@ -1,0 +1,4 @@
+name=HeartDriver2
+github=
+libs=boost_thread wiringPi 
+files=Application.cpp Application.h ClockedInput.h clockTest.cpp Display.cpp Display.h main.cpp 
