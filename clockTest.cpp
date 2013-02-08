@@ -19,7 +19,7 @@ int main(int argc, char** argv){
 		if(!input.compare("exit"))
 			running = false;
 		else
-			std::cout << input  << "rawr1" << std::endl;
+			std::cout << input  << "\tAmaizing" << std::endl;
 	}
 	trd->join();
 	delete trd;
